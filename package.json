@@ -1,5 +1,5 @@
 {
-  "name": "texitor-relases",
+  "name": "texitor-releases",
   "module": "index.ts",
   "type": "module",
   "scripts": {
