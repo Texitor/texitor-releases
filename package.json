@@ -1,0 +1,16 @@
+{
+  "name": "texitor-relases",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run deploy-commands && bun run src/main.ts",
+    "dev": "bun run --hot src/main.ts",
+    "build": "bun build src/main.ts --outdir dist --splitting --minify --target node"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
