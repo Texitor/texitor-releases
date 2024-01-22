@@ -3,19 +3,19 @@ interface TauriReleaseResponse {
   notes: string;
   pub_date: string;
   platforms: {
-    "darwin-x86_64": {
+    "darwin-x86_64"?: {
       signature: string;
       url: string;
     };
-    "darwin-aarch64": {
+    "darwin-aarch64"?: {
       signature: string;
       url: string;
     };
-    "linux-x86_64": {
+    "linux-x86_64"?: {
       signature: string;
       url: string;
     };
-    "windows-x86_64": {
+    "windows-x86_64"?: {
       signature: string;
       url: string;
     };
@@ -26,27 +26,20 @@ const supportedTarget = ["linux", "darwin", "windows"];
 
 const supportedArch = ["x86_64", "aarch64", "armv7"];
 
-const currentVersion: TauriReleaseResponse = {
-  version: "v1.0.0",
-  notes: "Test version",
-  pub_date: "2020-06-22T19:25:57Z",
+const latest: TauriReleaseResponse = {
+  version: "0.0.1",
+  notes: "See the assets to download and install this version.",
+  pub_date: "2024-01-22T14:13:30.389Z",
   platforms: {
     "darwin-x86_64": {
-      signature: "Content of app.tar.gz.sig",
-      url: "https://github.com/username/reponame/releases/download/v1.0.0/app-x86_64.app.tar.gz",
-    },
-    "darwin-aarch64": {
-      signature: "Content of app.tar.gz.sig",
-      url: "https://github.com/username/reponame/releases/download/v1.0.0/app-aarch64.app.tar.gz",
-    },
-    "linux-x86_64": {
-      signature: "Content of app.AppImage.tar.gz.sig",
-      url: "https://github.com/username/reponame/releases/download/v1.0.0/app-amd64.AppImage.tar.gz",
+      signature:
+        "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTZNQnhyZVRWTm1yeXJHcXU4QTZ5TGR4QzVuek1Mc3NnOHB1cHJXb1A5dkFxcXowS25rcWErUGQ4aFg2WXZ3azdpVTZqZnVlUThOR09pNHB2enArWkM1ZFdOZm5RdFFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA1OTMxOTk3CWZpbGU6VGV4aXRvci5hcHAudGFyLmd6CjJoc2FHUTZacVR0VmNENm93M29SOWdPR3RNMUVBbDdVeFg2MGRPRnJSVXpuK1ZjUjZiTU1ONFRDVVVQQ1BhRG5pTk5WRWtnUFd3TDl0WHBRMVBSU0JBPT0K",
+      url: "https://github.com/ali-shahwali/texitor/releases/download/v0.0.1/Texitor_x64.app.tar.gz",
     },
     "windows-x86_64": {
       signature:
-        "Content of app-setup.nsis.sig or app.msi.sig, depending on the chosen format",
-      url: "https://github.com/username/reponame/releases/download/v1.0.0/app-x64-setup.nsis.zip",
+        "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTZNQnhyZVRWTmk4ZFdPcHA1Nm1TU2VDMVV1MldmbHFiR3h1VW1QdHBBT0xXREw5dUdTWUE3YnQvcGNldnV6S3M4SFFMczNUWlRHU0xMZGdRTXhVNE5CQ21zak95bGcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA1OTMyODAzCWZpbGU6VGV4aXRvcl8wLjAuMV94NjRfZW4tVVMubXNpLnppcAptSk50T2l6TVYxTHFpenA4cUorNmtjUVlYZ0J2N1BMaDZrUlowVTFOa1dtcmpLOTgzTzJCalVVdndtMnM4aXgyZkc3SW1VWWFMc01tWjZhV2xtWHVDZz09Cg==",
+      url: "https://github.com/ali-shahwali/texitor/releases/download/v0.0.1/Texitor_0.0.1_x64_en-US.msi.zip",
     },
   },
 };
@@ -74,7 +67,7 @@ const server = Bun.serve({
       );
     }
 
-    return new Response(JSON.stringify(currentVersion));
+    return new Response(JSON.stringify(latest));
   },
 });
 
