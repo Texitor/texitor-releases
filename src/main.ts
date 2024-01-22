@@ -1,4 +1,32 @@
-const v0 = {
+interface TauriReleaseResponse {
+  version: string;
+  notes: string;
+  pub_date: string;
+  platforms: {
+    "darwin-x86_64": {
+      signature: string;
+      url: string;
+    };
+    "darwin-aarch64": {
+      signature: string;
+      url: string;
+    };
+    "linux-x86_64": {
+      signature: string;
+      url: string;
+    };
+    "windows-x86_64": {
+      signature: string;
+      url: string;
+    };
+  };
+}
+
+const supportedTarget = ["linux", "darwin", "windows"];
+
+const supportedArch = ["x86_64", "aarch64", "armv7"];
+
+const currentVersion: TauriReleaseResponse = {
   version: "v1.0.0",
   notes: "Test version",
   pub_date: "2020-06-22T19:25:57Z",
@@ -24,8 +52,29 @@ const v0 = {
 };
 
 const server = Bun.serve({
-  fetch(request, server) {
-    return new Response(JSON.stringify(v0));
+  fetch(req) {
+    const url = new URL(req.url);
+    const path = url.pathname;
+
+    const [_trail, target, arch, _currentVersion] = path.split("/", 4);
+
+    if (!supportedTarget.includes(target)) {
+      return new Response(
+        JSON.stringify({
+          message: "Unsupported target.",
+        })
+      );
+    }
+
+    if (!supportedArch.includes(arch)) {
+      return new Response(
+        JSON.stringify({
+          message: "Unsupported architechture.",
+        })
+      );
+    }
+
+    return new Response(JSON.stringify(currentVersion));
   },
 });
 
