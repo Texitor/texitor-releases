@@ -5,15 +5,15 @@
   "platforms": {
     "darwin-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTZNQnhyZVRWTms3SUl1YmZ2azdlL1ZseWFqMGlTV0NLT0tyUE4zQVl1SVBUaUMybWZ5TVk0bWZodzMwVlpGMXVzeXdPRzRreWdObjRXQVZnWVBXT0J6RS8yeGJuWEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA2MDIzMzQ1CWZpbGU6VGV4aXRvci5hcHAudGFyLmd6ClkrTE9Ic2pkS3hMQkFxalJNZ2dZbWxad3EveDdkaEVFZXFuaDRiKzRTZlVaWFhiM2tPMHVIM0pJdU41blVpUEZKRFo2YU5Da2xUYXl0ZktsYU53T0R3PT0K",
-      "url": "https://github.com/ali-shahwali/texitor/releases/download/v0.0.2/Texitor_x64.app.tar.gz"
+      "url": "https://github.com/ali-shahwali/texitor-releases/releases/download/v0.0.2/Texitor_x64.app.tar.gz"
     },
     "linux-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTZNQnhyZVRWTnFIaFQ3Y0ZEaUhUZVI2NDByR3dxcnFYYURqQUpqZDMxc0xoVjEyQXpsSUtyeXlkNTUySklURXpMai82bTJFOUtoVnVhVUo1eUlsQS9XamxMc2MwWVFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA2MDIzODk5CWZpbGU6dGV4aXRvcl8wLjAuMl9hbWQ2NC5BcHBJbWFnZS50YXIuZ3oKTy9zakVYbnRSbE9EMlFpa1ZNSGFoUEFXdHpORDJLaytPRnFvQW1xWE5mSTB1ZkE2R3crL2hOdnI5Ri9hYjl3R2huWjdUS29QRFRNL2Q3RTdPNmFOQkE9PQo=",
-      "url": "https://github.com/ali-shahwali/texitor/releases/download/v0.0.2/texitor_0.0.2_amd64.AppImage.tar.gz"
+      "url": "https://github.com/ali-shahwali/texitor-releases/releases/download/v0.0.2/texitor_0.0.2_amd64.AppImage.tar.gz"
     },
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTZNQnhyZVRWTmh3M05TdXF5bjg4ZTlvdUJyQzBvdDNLQVFEaXUrVHI4WUN5NWZqalFjWWdCenJIcy9JL0xDdm1YNFNmYUwzc0x4V1BTbEsybkU2R2hXM0JHRGdzOHdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA2MDIzOTg5CWZpbGU6VGV4aXRvcl8wLjAuMl94NjRfZW4tVVMubXNpLnppcAo3Ui91cEhKZEluRE5qY0FDR2VUSUczSWV4OFdBT1RNcW9lK0lsVjRkS2p2Y3JNd2tjZzA3S0pVZ2l1K2NsYk1oWmhoUFVkVi9mdzd5QTJ6SkNUSXlCZz09Cg==",
-      "url": "https://github.com/ali-shahwali/texitor/releases/download/v0.0.2/Texitor_0.0.2_x64_en-US.msi.zip"
+      "url": "https://github.com/ali-shahwali/texitor-releases/releases/download/v0.0.2/Texitor_0.0.2_x64_en-US.msi.zip"
     }
   }
 }
