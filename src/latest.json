@@ -1,19 +1,19 @@
 {
-  "version": "0.0.3",
+  "version": "0.0.4",
   "notes": "See the assets to download and install this version.",
-  "pub_date": "2024-01-28T00:14:04.104Z",
+  "pub_date": "2024-02-10T00:45:34.030Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTZNQnhyZVRWTmhreWMzK3N6bXY5VEdFeWNHaVNCS0tCYitWT0ZhQ3lITzg2eW9HK1hmZ2w5NkYrR0ZHeWx0N1ZlWGhrV3lWcGhSbnRRY0wzaDk5MmE2U2pXcjJsaEFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA2NDAwNDY0CWZpbGU6VGV4aXRvci5hcHAudGFyLmd6CnpOYklmdURBRnZBNHl2QW8yaVIzWDFpcUUyRXJidDRCZTZpZVdaQ0EzN2QyTWpBdjZvMU5sOVJrWS8zYkRPMVI3OUc1S3NnVHgxall4R2RVMnJRbkRRPT0K",
-      "url": "https://github.com/ali-shahwali/texitor-releases/releases/download/v0.0.3/Texitor_x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTZNQnhyZVRWTmp3dHhrRzJmTVdJV2JJK1BsVDRnaGw0aE1hWllnOXN1YVNINmtTL0ZPeDZEd2RGbVFEN3RZbDRCaVRQNU81NDJyK2phKzhTZTN2dml1eVN6WjkyVGdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA3NTI1MzU4CWZpbGU6VGV4aXRvci5hcHAudGFyLmd6Cm5wcmlXanNGNWdPai9NTUJpZ1NPTmwyMzVNcmZzcW9GWE9vY3dqbENtZGpXc2tldGFiclVqNDhsVjVtbUdhbncyTFlZVG5IdExWZzJrV3hPSzVseEFnPT0K",
+      "url": "https://github.com/ali-shahwali/texitor-releases/releases/download/v0.0.4/Texitor_x64.app.tar.gz"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTZNQnhyZVRWTmtRT2JmU2Exb2JRSW5aOUJhVVkzZm5Ua25rN0pnSDNUNGN2RW9GNHdaREpDaDFFUWdMTzliNU1sVm9BeVhEdVM0SVhXcmpRRkpLejA2TGJFc2ovdHdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA2NDAwNzA3CWZpbGU6dGV4aXRvcl8wLjAuM19hbWQ2NC5BcHBJbWFnZS50YXIuZ3oKNWRIWXEwWHlKTkE4K3E1SCtoa0NmK1M3NTVHaEFudzBWTEdCdlkwVXhDNDY5SDhNT2V5VlFTZm9ISkVBc1hydm45VWR6dTJ4dlAyMnF0UnBMSW9TQmc9PQo=",
-      "url": "https://github.com/ali-shahwali/texitor-releases/releases/download/v0.0.3/texitor_0.0.3_amd64.AppImage.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTZNQnhyZVRWTmk0aWVVKzFYV2d4djJtWDVJd2F4TzcwUzFJeE9ZYW5Cd3hEWERDMDFCRjA3Y3lCQjFoaExFbnUzMk5aRzNuVDhJVmw3eEREanVCaWM3RXgxY0FDMGdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA3NTI1NzA5CWZpbGU6dGV4aXRvcl8wLjAuNF9hbWQ2NC5BcHBJbWFnZS50YXIuZ3oKc09oSWVtMWFlbGZsaDh2d0xwMkdYSVZWNTFtQmFNc1FXeUhrUng4b0dnazVNQmVwVTZqSFdhQjc1ZnJXaEdyUUNCdm1vcDlRdkpkdTJJdjN1M2hvQlE9PQo=",
+      "url": "https://github.com/ali-shahwali/texitor-releases/releases/download/v0.0.4/texitor_0.0.4_amd64.AppImage.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTZNQnhyZVRWTmtza1ZsWGZLd1lPZ2laeVRlMUhxb2xVVFByekpLTUE1MG9Edml0V3FxVDJTOHY4cVlsRmRoWG5IRmxiN1dKdEYvZlQ3Z0E4MDZGWEZHVVZIWnM1MkFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA2NDAwODM1CWZpbGU6VGV4aXRvcl8wLjAuM194NjRfZW4tVVMubXNpLnppcApkd2VnMDErc0VYWWVoY0N1dE1ibGlEdysvZGRCS1ZWV2ZvR3cvZXZWdWQ5WHFyV0JCbXpvLzZFbElwSmxTKzNDUzBDeGp1NVAxRUUrdU5nMFZvMndDZz09Cg==",
-      "url": "https://github.com/ali-shahwali/texitor-releases/releases/download/v0.0.3/Texitor_0.0.3_x64_en-US.msi.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTZNQnhyZVRWTmtSQ0VHWlk4ZW5YcVZtV0tQRm8vcFd1QUM4ekRJZHFIaVBNSVRudEVKWUpyTXptcnAyelpjL1A1RVRyZlU3TnlqYXlhVFJEOEpXa0FlbHkxc21EZmdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA3NTI1OTI3CWZpbGU6VGV4aXRvcl8wLjAuNF94NjRfZW4tVVMubXNpLnppcApZeFBNOXorKzc3YmxsalpNTnJadkFTT3hhUzduYzVZMmpYeDMvKzZENG9FUWNKeHhSdnZKZG9QK3l1NER0Tlp6cjZVbDBZNmovczlIa0thdU5DcTRBUT09Cg==",
+      "url": "https://github.com/ali-shahwali/texitor-releases/releases/download/v0.0.4/Texitor_0.0.4_x64_en-US.msi.zip"
     }
   }
 }
